@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Портфолио</title>
   </head>
 
@@ -10,59 +17,61 @@
     <!-- header-section-->
     <header>
       <nav>
-        <a href="">WebStudio</a>
+        <a class="site-logo" href=""><span class="site-logo-web">Web</span>Studio</a>
         <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+          <li><a class="header-section-nav" href="./index.html">Студия</a></li>
+          <li><a class="header-section-nav" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="header-section-nav" href="">Контакты</a></li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <a class="header-section-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li><a class="header-section-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
     <!-- buttons-section -->
     <section>
-      <h1>Фильтр страницы портфолио</h1>
+      <h1 class="portfolio-filters">Фильтр страницы портфолио</h1>
       <ul>
-        <li><button type="button">Все</button></li>
-        <li><button type="button">Веб-сайты</button></li>
-        <li><button type="button">Приложения</button></li>
-        <li><button type="button">Дизайн</button></li>
-        <li><button type="button">Маркетинг</button></li>
+        <li><button type="button" class="button">Все</button></li>
+        <li><button type="button" class="button">Веб-сайты</button></li>
+        <li><button type="button" class="button">Приложения</button></li>
+        <li><button type="button" class="button">Дизайн</button></li>
+        <li><button type="button" class="button">Маркетинг</button></li>
       </ul>
     </section>
 
-    <!-- features-section -->
+    <!-- work-section -->
     <section>
-      <h1>Примеры работ</h1>
+      <h1 class="work-exemples">Примеры работ</h1>
       <ul>
         <li>
           <img src="./images/techno.jpg" alt="Веб-сайт Технокряк" width="370" />
-          <h2>Технокряк</h2>
-          <p>Веб-сайт</p>
+          <h2 class="work-tittle">Технокряк</h2>
+          <p class="work-area">Веб-сайт</p>
         </li>
         <li>
           <img src="./images/poster.jpg" alt="Постер New Orlean vs Golden Star" width="370" />
-          <h2>Постер New Orlean vs Golden Star</h2>
-          <p>Дизайн</p>
+          <h2 class="work-tittle">Постер New Orlean vs Golden Star</h2>
+          <p class="work-area">Дизайн</p>
         </li>
         <li>
           <img src="./images/restaurant.jpg" alt="Приложение Ресторан Seafood" width="370" />
-          <h2>Ресторан Seafood</h2>
-          <p>Приложение</p>
+          <h2 class="work-tittle">Ресторан Seafood</h2>
+          <p class="work-area">Приложение</p>
         </li>
         <li>
           <img src="./images/prime-project.jpg" alt="Маркетинг Проект Prime" width="370" />
-          <h2>Проект Prime</h2>
-          <p>Маркетинг</p>
+          <h2 class="work-tittle">Проект Prime</h2>
+          <p class="work-area">Маркетинг</p>
         </li>
         <li>
           <img src="./images/boxes-project.jpg" alt="Приложение Проект Boxes" width="370" />
-          <h2>Проект Boxes</h2>
-          <p>Приложение</p>
+          <h2 class="work-tittle">Проект Boxes</h2>
+          <p class="work-area">Приложение</p>
         </li>
         <li>
           <img
@@ -70,8 +79,8 @@
             alt="Веб-сайт Inspiration has no Borders"
             width="370"
           />
-          <h2>Inspiration has no Borders</h2>
-          <p>Веб-сайт</p>
+          <h2 class="work-tittle">Inspiration has no Borders</h2>
+          <p class="work-area">Веб-сайт</p>
         </li>
         <li>
           <img
@@ -79,29 +88,29 @@
             alt="Дизайн Издание Limited Edition"
             width="370"
           />
-          <h2>Издание Limited Edition</h2>
-          <p>Дизайн</p>
+          <h2 class="work-tittle">Издание Limited Edition</h2>
+          <p class="work-area">Дизайн</p>
         </li>
         <li>
           <img src="./images/lab-project.jpg" alt="Маркетинг Проект LAB" width="370" />
-          <h2>Проект LAB</h2>
-          <p>Маркетинг</p>
+          <h2 class="work-tittle">Проект LAB</h2>
+          <p class="work-area">Маркетинг</p>
         </li>
         <li>
           <img src="./images/growing-business.jpg" alt="Приложение Growing Business" width="370" />
-          <h2>Growing Business</h2>
-          <p>Приложение</p>
+          <h2 class="work-tittle">Growing Business</h2>
+          <p class="work-area">Приложение</p>
         </li>
       </ul>
     </section>
 
-    <!-- contacts-section -->
+    <!-- fotter-section -->
     <footer>
-      <a href="">WebStudio</a>
+      <a class="site-logo" href=""><span class="site-logo-web">Web</span>Studio</a>
       <address>
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <a href="mailto:info@example.com">info@example.com</a>
-        <a href="tel:+380991111111">+38 099 111 11 11</a>
+        <p class="fotter-address">г. Киев, пр-т Леси Украинки, 26</p>
+        <a class="fotter-link" href="mailto:info@example.com">info@example.com</a>
+        <a class="fotter-link" href="tel:+380991111111">+38 099 111 11 11</a>
       </address>
     </footer>
   </body>

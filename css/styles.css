@@ -1,0 +1,104 @@
+body {
+  font-family: 'Roboto';
+  color: #212121;
+}
+
+/* <!-- header-section--> */
+.site-logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.site-logo-web {
+  color: #2196f3;
+}
+
+.header-section-nav,
+.header-section-link {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.header-section-link {
+  color: #757575;
+}
+
+.header-section-nav:hover,
+.header-section-link:hover,
+.header-section-nav:focus,
+.header-section-link:focus {
+  color: #2196f3;
+}
+
+/* <!-- buttons-section --> */
+.button {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+/* <!-- work-section --> */
+.work-tittle {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.work-area {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* <!-- fotter-section --> */
+
+.fotter-address {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.fotter-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.fotter-link:hover,
+.fotter-link:focus {
+  color: #2196f3;
+}
+
+.portfolio-filters,
+.work-exemples {
+  visibility: hidden;
+}
