@@ -61,7 +61,10 @@ body {
 .site-navigation,
 .upper-links,
 .portfolio-filters-list,
-.project-list {
+.project-list,
+.features-list,
+.work-list,
+.team-list {
   list-style: none;
 }
 
@@ -78,7 +81,9 @@ body {
 }
 
 .portfolio-filter-btn:hover,
-.portfolio-filter-btn:focus {
+.portfolio-filter-btn:focus,
+.hero-btn:hover,
+.hero-btn:focus {
   background: var(--blue-text-background-color);
   color: var(--white-text-background-color);
 }
@@ -144,4 +149,76 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+
+/* -------------------STUDIO------------------- */
+
+.hero {
+  background-color: var(--hero-footer-background-color);
+}
+.hero-tittle {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text-background-color);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--black-text-color);
+  background-color: var(--team-btn-background-color);
+}
+
+/* -----------features-section------------ */
+
+.features-tittle {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--gray-text-color);
+}
+
+/* ----------team-section------------- */
+.team-section {
+  background-color: var(--team-btn-background-color);
+}
+.work-team-tittle {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.teammate,
+.team-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.teammate {
+  font-weight: 500;
+}
+
+.team-position {
+  color: var(--gray-text-color);
 }
